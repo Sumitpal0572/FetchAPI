@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #53676d;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+button {
+  margin-top: 1em;
+  transform: (204, 115, 206) 0.3s ease;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em;
+}
+
+.country-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(126, 34, 34, 0.1);
+  margin: 1em;
+  padding: 1em;
+  width: 250px;
+  transform: (204, 115, 206) 0.3s ease;
+}
+
+.country-card:hover {
+  background-color: rgb(173, 226, 160);
+}
+
+.country-card h2 {
+  margin-top: 0;
+}
+
+.country-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
